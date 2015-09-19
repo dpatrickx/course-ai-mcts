@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+C	.\Strategy.cpp	13;"	d	file:
+JUDGE_H_	.\Judge.h	14;"	d
+MCNode	.\Strategy.cpp	/^	MCNode() : x(0),y(0),lChild(-1),rChild(-1),father(-1),user(false),isLeaf(true),winRound(0),totRound(0)$/;"	f	class:MCNode
+MCNode	.\Strategy.cpp	/^class MCNode$/;"	c	file:
+NODENUM	.\Strategy.cpp	11;"	d	file:
+POINT_H_	.\Point.h	9;"	d
+Point	.\Point.h	/^	Point(int x, int y){$/;"	f	class:Point
+Point	.\Point.h	/^class Point{$/;"	c
+STRATEGY_H_	.\Strategy.h	9;"	d
+TIMELIMIT	.\Strategy.cpp	14;"	d	file:
+banX	.\Strategy.cpp	/^int nn = 0,mm = 0,banX = -1,banY = -1;$/;"	v
+banY	.\Strategy.cpp	/^int nn = 0,mm = 0,banX = -1,banY = -1;$/;"	v
+clearArray	.\Strategy.cpp	/^void clearArray(int M, int N, int** board){$/;"	f
+clearPoint	.\Strategy.cpp	/^extern "C" __declspec(dllexport) void clearPoint(Point* p){$/;"	f
+epsilon	.\Strategy.cpp	12;"	d	file:
+fNode	.\Strategy.cpp	/^int fNode = 0;$/;"	v
+father	.\Strategy.cpp	/^	int lChild,rChild,father;$/;"	m	class:MCNode	file:
+finish	.\Strategy.cpp	/^clock_t start,finish;$/;"	v
+getPoint	.\Strategy.cpp	/^extern "C" __declspec(dllexport) Point* getPoint(const int M, const int N, const int* top, const int* _board, $/;"	f
+isLeaf	.\Strategy.cpp	/^	bool user,isLeaf;				\/\/ user: false-->oppoent, true-->me$/;"	m	class:MCNode	file:
+isTie	.\Judge.cpp	/^bool isTie(const int N, const int* top){$/;"	f
+lChild	.\Strategy.cpp	/^	int lChild,rChild,father;$/;"	m	class:MCNode	file:
+machineWin	.\Judge.cpp	/^bool machineWin(const int x, const int y, const int M, const int N, int* const* board){$/;"	f
+mm	.\Strategy.cpp	/^int nn = 0,mm = 0,banX = -1,banY = -1;$/;"	v
+nn	.\Strategy.cpp	/^int nn = 0,mm = 0,banX = -1,banY = -1;$/;"	v
+nodes	.\Strategy.cpp	/^MCNode nodes[NODENUM];$/;"	v
+rChild	.\Strategy.cpp	/^	int lChild,rChild,father;$/;"	m	class:MCNode	file:
+rank	.\Strategy.cpp	/^int rank;$/;"	v
+sel	.\Strategy.cpp	/^int sel;$/;"	v
+start	.\Strategy.cpp	/^clock_t start,finish;$/;"	v
+tempBoard1	.\Strategy.cpp	/^int** tempBoard1;$/;"	v
+tempBoard2	.\Strategy.cpp	/^int** tempBoard2;			\/\/ used for modify function$/;"	v
+tempTop1	.\Strategy.cpp	/^int* tempTop1;$/;"	v
+tempTop2	.\Strategy.cpp	/^int* tempTop2;				\/\/ used for modify function$/;"	v
+totRound	.\Strategy.cpp	/^	int winRound, totRound;$/;"	m	class:MCNode	file:
+totaltime	.\Strategy.cpp	/^double totaltime = 0;$/;"	v
+user	.\Strategy.cpp	/^	bool user,isLeaf;				\/\/ user: false-->oppoent, true-->me$/;"	m	class:MCNode	file:
+userWin	.\Judge.cpp	/^bool userWin(const int x, const int y, const int M, const int N, int* const* board){$/;"	f
+winRound	.\Strategy.cpp	/^	int winRound, totRound;$/;"	m	class:MCNode	file:
+x	.\Point.h	/^	int x;$/;"	m	class:Point
+x	.\Strategy.cpp	/^	int x,y;$/;"	m	class:MCNode	file:
+y	.\Point.h	/^	int y;$/;"	m	class:Point
+y	.\Strategy.cpp	/^	int x,y;$/;"	m	class:MCNode	file:
